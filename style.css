@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3em 2em;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3em;
+}
+
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1em 1.5em;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: .5em;
+    border: 2px solid #fff;
+}
+
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.wrap{
+    min-height: 80%;
+}
+
+@media (min-width:768px){
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+}
